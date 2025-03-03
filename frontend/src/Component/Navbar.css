@@ -1,0 +1,26 @@
+.primary-nav {
+    background-color: cornsilk;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .primary-nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin-left: 20px;
+    transition: background-color 0.3s ease; 
+  }
+  .primary-nav a:hover {
+    background-color: #f0a500;
+    color: white;
+  }
+  
+  .primary-nav a.active {
+    background-color: #f0a500; 
+    color: white;
+  }

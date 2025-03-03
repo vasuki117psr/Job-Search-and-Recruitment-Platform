@@ -1,0 +1,113 @@
+{
+  "user": [
+    {
+      "email": "22cs117@pssr.edu.in",
+      "password": "123",
+      "id": "86fc"
+    },
+    {
+      "id": "b345",
+      "email": "vasu@gmail.com",
+      "password": "vasu"
+    },
+    {
+      "id": "f766",
+      "email": "priya@gmail.com",
+      "password": "priya"
+    },
+    {
+      "id": "0ef2",
+      "email": "vasu@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "8ba8",
+      "email": "vasu@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "aa60",
+      "email": "vasu@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "b785",
+      "email": "vasu@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "13bb",
+      "email": "sf@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "cd8d",
+      "email": "qe@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "9615",
+      "email": "aas@gmail.com",
+      "password": "1223"
+    },
+    {
+      "id": "6e72",
+      "email": "vas@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "254d",
+      "email": "12@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "b723",
+      "email": "vas@gmail.com",
+      "password": "123"
+    }
+  ],
+  "seeker": [
+    {
+      "name": "vasu",
+      "email": "vasu@gmail.com",
+      "password": "123 ",
+      "qualifications": "be",
+      "experience": "0",
+      "skills": "c",
+      "id": "d71d"
+    },
+    {
+      "id": "e7a5",
+      "formData": {
+        "name": "Vasuki.M",
+        "email": "22cs117@psr.edu.in",
+        "password": "12345",
+        "qualifications": "be",
+        "experience": "0",
+        "skills": "c"
+      }
+    },
+    {
+      "id": "c7c8",
+      "formData": {
+        "name": "Vasuki.M",
+        "email": "22cs117@psr.edu.in",
+        "password": "123",
+        "qualifications": "be",
+        "experience": "0",
+        "skills": "c"
+      }
+    },
+    {
+      "id": "fb6c",
+      "formData": {
+        "name": "Vasuki.M",
+        "email": "22cs117@psr.edu.in",
+        "password": "21",
+        "qualifications": "be",
+        "experience": "0",
+        "skills": "c"
+      }
+    }
+  ]
+}

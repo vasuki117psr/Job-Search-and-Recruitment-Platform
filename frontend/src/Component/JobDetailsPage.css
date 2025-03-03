@@ -1,0 +1,46 @@
+/* JobDetailsPage.css */
+
+/* Styling for the job details page */
+.job-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .job-details h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .job-details p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .job-details strong {
+    font-weight: bold;
+  }
+  
+  .job-details a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+  }
+  
+  .job-details a:hover {
+    background-color: #218838;
+  }
+  
+  .job-details .apply-btn {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,52 @@
+.login-page {
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color:rosybrown;
+  margin-top: 100PX;
+}
+
+.login-page h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.role-selection {
+  margin-top: 20px;
+}
+
+.message {
+  color: red;
+  font-weight: bold;
+}
+div{
+  background-color: bisque;
+  background-size: cover;
+}

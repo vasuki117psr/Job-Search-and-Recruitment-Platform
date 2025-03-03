@@ -1,0 +1,37 @@
+
+    .home {
+        text-align: center;
+        padding: 60px 0;
+        background-image: url("https://www.abrjobs.com/wp-content/uploads/2021/06/searching-for-a-new-job-picjumbo-com-scaled.jpg");
+        color:white;
+        width: 100%;
+        height: 100vh; 
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat; 
+      }
+      
+  
+  
+  .home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .home button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .home button:hover {
+    background-color: #0056b3;
+  }
