@@ -11,10 +11,7 @@ const Login = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-
-    // TEMPORARY: Hardcoded login check (Replace this with API call later)
     if (email && password) {
-      // Storing user login status and role temporarily in localStorage
       localStorage.setItem('isLoggedIn', true);
       alert("Confirm Your Credentials" + "\n" + "Email: " + email + "\n" + "Password: " + password);
       setShowRoleSelection(true);
@@ -24,9 +21,7 @@ const Login = () => {
   }
 
   const handleRoleSelection = (role) => {
-    localStorage.setItem('role', role); // Store the selected role
-
-    // Redirect based on role
+    localStorage.setItem('role', role); 
     if (role === 'poster') {
       navigate('/post');
     } else if (role === 'seeker') {
