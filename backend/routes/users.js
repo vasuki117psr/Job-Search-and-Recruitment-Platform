@@ -7,7 +7,6 @@ const jwt=require('jsonwebtoken')
 const bodyParser=require('body-parser')
 router.use(bodyParser.json())
 
-/* GET users listing. */
 router.post('/signup',async(req, res)=>{
   try{
     const{username,email,password}=req.body
