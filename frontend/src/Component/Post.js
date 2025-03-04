@@ -37,7 +37,7 @@ const JobPostingPage = () => {
       setJobPosts(updatedPosts);
       setEditIndex(null);
     } else {
-      // Wrap the single formData inside an array when posting
+
       setJobPosts([...jobPosts, formData]);
     }
   
@@ -54,20 +54,20 @@ const JobPostingPage = () => {
   };
 
   const handleFinalSubmit = () => {
-    console.log("Job posts being submitted:", jobPosts); // Add this line to check the data
+    console.log("Job posts being submitted:", jobPosts); 
     if (jobPosts.length === 0) {
       console.log("No jobs to submit!");
       alert("⚠️ Please post at least one job before submitting!");
       return;
     }
   
-    axios.post('http://localhost:3001/jobs/job', { jobPosts }) // Send jobPosts as an object
+    axios.post('http://localhost:3001/jobs/job', { jobPosts }) 
       .then(() => {
         console.log("Job posts successfully submitted!");
         setShowThankYou(true);
         setTimeout(() => {
           setShowThankYou(false);
-          navigate('/');  // Redirect after successful submission
+          navigate('/');  
         }, 2000);
       })
       .catch(err => {
