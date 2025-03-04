@@ -9,7 +9,7 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, e.g., send data to backend API
+
     setStatus('Thank you for contacting us! We will get back to you soon.');
   };
 
