@@ -1,4 +1,3 @@
-/* Jobposter.css */
 
 .job-posting-page {
   max-width: 800px;
@@ -87,8 +86,6 @@ button:nth-child(2) {
 button:nth-child(2):hover {
   background: #a71d2a;
 }
-
-/* Styling for long links */
 td a {
   display: inline-block;
   max-width: 200px;
