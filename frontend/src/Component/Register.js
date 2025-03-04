@@ -30,11 +30,11 @@ export default function Signup() {
         navigate('/login');
       }, 3000);
     } catch (error) {
-      console.error('Signup Error:', error); // Log the error
+      console.error('Signup Error:', error); 
       setMessage('Signup failed. Please try again.');
       alert('Error: Signup failed. Please try again.');
     } finally {
-      setLoading(false); // Hide loading state
+      setLoading(false);
     }
   };
 
