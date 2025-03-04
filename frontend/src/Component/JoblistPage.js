@@ -7,7 +7,6 @@ function JobListPage() {
   const [searchTerm, setSearchTerm] = useState('');
   
   useEffect(() => {
-    // Fetching job data from the backend
     axios.get('http://localhost:3001/jobs/job')
       .then(response => {
         setJobs(response.data); 
@@ -16,8 +15,6 @@ function JobListPage() {
         console.error("There was an error fetching the jobs!", error);
       });
   }, []); 
-
-  // Filter jobs based on the search term
   const filteredJobs = jobs.filter(job => 
     job.jobTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
     job.location.toLowerCase().includes(searchTerm.toLowerCase())
