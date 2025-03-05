@@ -5,7 +5,7 @@ import './JobDetailsPage.css';
 
 function JobDetailsPage() {
   const [job, setJob] = useState(null);
-  const { id } = useParams();  // Get the job ID from the URL
+  const { id } = useParams();  
 
   useEffect(() => {
     axios.get(`http://localhost:3001/jobs/job/${id}`)
