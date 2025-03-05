@@ -29,7 +29,7 @@ function JobDetailsPage() {
       <p><strong>Age Limit:</strong> {job.ageLimit}</p>
       <p><strong>Qualification:</strong> {job.qualification}</p>
       <p><strong>Description:</strong> {job.description}</p>
-      <a href={job.applyLink} target="_blank" rel="noopener noreferrer">
+      <a href={job.applyLink} target="_blank">
         Apply Here
       </a>
     </div>
